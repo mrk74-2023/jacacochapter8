@@ -35,6 +35,7 @@ jacocoTestCoverageVerification {
 }
 
 checkstyle {
+        toolVersion "8.29"
 	checkstyleTest.enabled = false
 }
 
