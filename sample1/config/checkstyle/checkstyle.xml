@@ -3,7 +3,7 @@
      "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
      "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 
-<module name="Checker">
+<module name="ConstantName">
      <module name="TreeWalker">
           <module name="JavadocType">
                <property name="scope" value="public"/>
@@ -11,7 +11,3 @@
      </module>
 </module>
 
-<module name="ConstantName">
-  <property name="applyToPublic" value="false"/>
-  <property name="applyToProtected" value="false"/>
-</module>
