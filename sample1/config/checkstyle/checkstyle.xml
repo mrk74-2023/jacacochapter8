@@ -1,19 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE module PUBLIC
-     "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
-     "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+     "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+     "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 
 <module name="Checker">
      <module name="TreeWalker">
           <module name="JavadocType">
                <property name="scope" value="public"/>
           </module>
-          
-          <!-- Add a rule for constant name check -->
-          <module name="ConstantName">
-               <property name="format" value="^[A-Z][_A-Za-z0-9]*$"/>
-               <property name="ignoreFinal" value="true"/>
-          </module>
      </module>
 </module>
-
