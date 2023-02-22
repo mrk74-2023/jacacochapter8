@@ -35,7 +35,6 @@ jacocoTestCoverageVerification {
 }
 
 checkstyle {
-        toolVersion "7.6.1"
 	checkstyleTest.enabled = false
 }
 
